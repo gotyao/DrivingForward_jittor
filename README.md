@@ -3,7 +3,7 @@ This is a jittor implementation of [DrivingForward](https://github.com/fangzhou2
 
 ## Installation
 ```
-git clone 
+git clone https://github.com/gotyao/DrivingForward_jittor
 cd DrivingForward
 conda create -n DrivingForward python=3.9
 conda activate DrivingForward
