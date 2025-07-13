@@ -70,7 +70,7 @@ python -W ignore train.py --novel_view_mode MF
 ```
 
 ## Acknowledgements
-This implementation is based on the following project: 
+This implementation is based on the following project:   
 [Dataset-Governance-Policy](https://github.com/TRI-ML/dgp)  
 [PackNet-SfM](https://github.com/TRI-ML/packnet-sfm)  
 [gaussian-splatting-jittor](https://github.com/otakuxiang/gaussian-splatting-jittor)  
