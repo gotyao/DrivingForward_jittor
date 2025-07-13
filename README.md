@@ -71,7 +71,7 @@ python -W ignore train.py --novel_view_mode MF
 
 ## Acknowledgements
 This implementation is based on the following project: 
-[Dataset-Governance-Policy](https://github.com/TRI-ML/dgp)
-[PackNet-SfM](https://github.com/TRI-ML/packnet-sfm)
+[Dataset-Governance-Policy](https://github.com/TRI-ML/dgp)  
+[PackNet-SfM](https://github.com/TRI-ML/packnet-sfm)  
 [gaussian-splatting-jittor](https://github.com/otakuxiang/gaussian-splatting-jittor)  
 [Jittor_Perceptual-Similarity-Metric](https://github.com/ty625911724/Jittor_Perceptual-Similarity-Metric)  
