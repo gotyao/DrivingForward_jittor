@@ -4,9 +4,9 @@ This is a jittor implementation of [DrivingForward](https://github.com/fangzhou2
 ## Installation
 ```
 git clone https://github.com/gotyao/DrivingForward_jittor
-cd DrivingForward
-conda create -n DrivingForward python=3.9
-conda activate DrivingForward
+cd DrivingForward_jittor
+conda create -n DFjittor python=3.9
+conda activate DFjittor
 pip install jittor
 pip install -r requirements.txt
 cd models/gaussian
@@ -70,6 +70,8 @@ python -W ignore train.py --novel_view_mode MF
 ```
 
 ## Acknowledgements
-This implementation is based on the following project:  
+This implementation is based on the following project: 
+[Dataset-Governance-Policy](https://github.com/TRI-ML/dgp)
+[PackNet-SfM](https://github.com/TRI-ML/packnet-sfm)
 [gaussian-splatting-jittor](https://github.com/otakuxiang/gaussian-splatting-jittor)  
 [Jittor_Perceptual-Similarity-Metric](https://github.com/ty625911724/Jittor_Perceptual-Similarity-Metric)  
