@@ -1,0 +1,6 @@
+__pycache__/
+*.pkl
+*.so
+build/
+data/
+output/
