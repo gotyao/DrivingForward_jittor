@@ -3,15 +3,18 @@ This is a jittor implementation of [DrivingForward](https://github.com/fangzhou2
 
 ## Installation
 ```
-git clone https://github.com/gotyao/DrivingForward_jittor
 cd DrivingForward_jittor
 conda create -n DFjittor python=3.9
 conda activate DFjittor
 pip install jittor
 pip install -r requirements.txt
-cd models/gaussian
-git clone https://github.com/otakuxiang/gaussian-splatting-jittor
-cd ../..
+cd models/gaussian/gaussian-renderer/diff_gaussian_rasterizater
+cmake .
+make -j
+cd ../../scene/simple-knn
+cmake .
+make -j
+cd ../../../..
 ```
 
 Note: The repository uses [Jittor_Perceptual-Similarity-Metric](https://github.com/ty625911724/Jittor_Perceptual-Similarity-Metric) for evaluation. Please download the pretrained model from the source repository and place them within the `DFjittor` folder.
