@@ -9,10 +9,10 @@ conda create -n DFjittor python=3.9
 conda activate DFjittor
 pip install jittor
 pip install -r requirements.txt
-cd models/gaussian/gaussian-renderer/diff_gaussian_rasterizater
+cd models/gaussian/gaussian_splatting_jittor/gaussian_renderer/diff_gaussian_rasterizater
 cmake .
 make -j
-cd ../../scene/simple-knn
+cd ../../scene/simple_knn
 cmake .
 make -j
 cd ../../../..
